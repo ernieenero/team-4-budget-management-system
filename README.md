@@ -1,9 +1,11 @@
 # team-4-budget-management-system
+
+This will be developing Branch
 System Design &amp; Analysis - Academic Project
 Members:
-	John Henrick Abistado
-	Assierose Corales
-	Ernesto Enero
-	Czyril Joy Joble
-	Maureen Joy Vinluan
-	Steven Serrano
+John Henrick Abistado
+Assierose Corales
+Ernesto Enero
+Czyril Joy Joble
+Maureen Joy Vinluan
+Steven Serrano
