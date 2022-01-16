@@ -45,7 +45,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <img src="<?php echo base_url("public/images/right-drawn-arrow.png"); ?>" alt="" class="home-des">
                 
 
-                <a href="/SAD/signup" class="btn btn-info started">Let's Get Starded</a>
+                <a href="<?php  echo base_url();?>signup" class="btn btn-info started">Let's Get Starded</a>
             </div>
             
         </div>

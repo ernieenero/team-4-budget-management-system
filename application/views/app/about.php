@@ -21,8 +21,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-link" aria-current="page" href="/SAD/">Home</a>
-                <a class="nav-link active" href="/SAD/about">About</a>
+                <a class="nav-link" aria-current="page" href="<?php echo base_url();?>">Home</a>
+                <a class="nav-link active" href="<?php echo base_url(); ?>about">About</a>
                 <a class="nav-link" href="#">Login</a>
   
             </div>
