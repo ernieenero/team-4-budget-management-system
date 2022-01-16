@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="collapse navbar-collapse navigation" id="navbarNavAltMarkup">
             <div class="navbar-nav">
                 <a class="nav-link active" aria-current="page" href="<?php echo base_url(); ?>">Home</a>
                 <a class="nav-link" href="<?php echo base_url(); ?>about">About</a>
@@ -41,11 +41,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <img src="<?php echo base_url("public/images/money.png"); ?>" alt="" class="home-des">
                 <img src="<?php echo base_url("public/images/save-money.png"); ?>" alt="" class="home-des">
             </div>
+            <div class="direction">
+                <img src="<?php echo base_url("public/images/right-drawn-arrow.png"); ?>" alt="" class="home-des">
+                
 
-            <div class="arrow">
+                <a href="/SAD/signup" class="btn btn-info started">Let's Get Starded</a>
             </div>
-
-            <a href="/SAD/hello" class="btn btn-info">Let's Get Starded</a>
+            
         </div>
     </body>
 </html>
