@@ -27,7 +27,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="navbar-nav">
                 <a class="nav-link active" aria-current="page" href="<?php echo base_url(); ?>">Home</a>
                 <a class="nav-link" href="<?php echo base_url(); ?>about">About</a>
-                <a class="nav-link" href="#">Login</a>
+                <a class="nav-link" href="<?php echo base_url(); ?>login">Login</a>
   
             </div>
             </div>
