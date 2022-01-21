@@ -2,7 +2,7 @@
 	margin: 0;
 	padding: 0;
 }
-body.home-page {
+div.home-page {
 	background-image: linear-gradient(
 		to bottom,
 		white,
