@@ -1,0 +1,34 @@
+.sidebar{
+    display: block;
+    text-align: center;
+    background-color: rgb(181, 244, 255);
+    width: 180px;
+    position: fixed;
+    left: 0;
+    height: 100%;
+    padding: 20px;
+    /* margin-right: 100px; */
+}
+ul{
+    padding-bottom: 50px;
+}
+.btn-vert{
+    /* background-color: aquamarine; */
+    width: 250px;
+}
+.btn-primary{
+    margin: 10px 0;
+    min-width: 250px;
+}
+.add-btn{
+    min-width: auto;
+}
+#expense-table{
+    width: 50%;
+}
+.my-container{
+    padding-left: 30px;
+    margin-left: 185px;
+}
+.col{
+}
