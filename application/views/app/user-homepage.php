@@ -1,5 +1,6 @@
-<link rel="stylesheet" href="<?php echo base_url('/public/css/user-homepage.css');?>">
-
+        <link rel="stylesheet" href="<?php echo base_url('/public/css/user-homepage.css');?>">
+    </head>
+<body>
 
 <nav class="sidebar">
     <ul class="nav navbar-nav dropdown">

@@ -1,6 +1,5 @@
-<?php
-defined('BASEPATH') OR exit('No direct script access allowed');
-?>
+    </head>
+<body>
 <div class='home-page'>
     <?php $this->load->view('templates/navbar.php'); ?>
 
