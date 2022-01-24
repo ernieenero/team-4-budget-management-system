@@ -1,5 +1,6 @@
 <h1>Team 4 - Budget Management System</h1>
 <h2>System Analysis & Design- Academic Project</h2>
+<h2>Instructor: <span>Rellmon Ponce De Leon</span></h2>
 <h3>Group Members:</h3>
 <ul>
     <li><a href="https://github.com/JHAbistado">Abistado, John Henrick</a></li>
