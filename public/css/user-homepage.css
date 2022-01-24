@@ -1,19 +1,8 @@
 :root {
     --primary-color: #000;
-    --secondary-color: #FFE100;
-    --accent-color: #000435;
     --white-primary: #FFF;
     --white-secondary: rgb(184, 184, 184);
     --white-tertiary: #7e7e7e;
-}
-
-.body{
-    overflow-y: hidden;
-}
-
-.navbar{
-    position: sticky;
-    top: 0px;
 }
 
 .sidebar {
@@ -67,32 +56,30 @@
 }
 
 .sidebar .closebtn {
-position: absolute;
-top: 0px;
-right: 20px;
-font-size: 36px;
-margin-left: 50px;
-height: 10px;
-text-decoration: none;
-color: var(--primary-color);
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    font-size: 36px;
+    margin-left: 50px;
+    height: 10px;
+    text-decoration: none;
+    color: var(--primary-color);
 }
 
-
 .openbtn {
-font-size: 20px;
-cursor: pointer;
-background-color: #111;
-color: white;
-padding: 10px 15px;
-border: none;
-position: sticky;
-top: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    position: sticky;
+    top: 20px;
 }
 
 .openbtn:hover {
-background-color: #444;
+    background-color: #444;
 }
-
 
 .main{
     background-color: #9BD5E8;
@@ -131,6 +118,7 @@ background-color: #444;
     font-size: 25px;
     text-transform: uppercase;
 }
+
 .content{
     display: block;
     margin-top: 6rem;
@@ -142,6 +130,7 @@ background-color: #444;
     width: 15rem;
     margin-left: 15rem;
 }
+
 .content .left-content button,
 .content .left-content div
 {

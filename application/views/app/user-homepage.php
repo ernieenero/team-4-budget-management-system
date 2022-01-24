@@ -12,64 +12,63 @@
     
 </head>
 <body>
-        <div id="mySidebar" class="sidebar">
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-          <p class="sidebar-header"><i class="fa fa-credit-card"></i>Accounts</p>
-          <div class="nav-list">
-            <button class="nav-link btn btn-success">Personal Saving 1</button>
-            <button class="nav-link btn btn-primary">Personal Saving 2</button>
-            <button class="nav-link btn btn-primary">Business</button>
-            <button class="nav-link btn btn-secondary"><i class="fa fa-plus-circle"></i>Add Account</button>
-          </div>
-          
-          <button class="nav-link logout btn btn-danger"><i class="fa fa-sign-out"></i>Logout</button>
+  <div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <p class="sidebar-header"><i class="fa fa-credit-card"></i>Accounts</p>
+    <div class="nav-list">
+      <button class="nav-link btn btn-success">Personal Saving 1</button>
+      <button class="nav-link btn btn-primary">Personal Saving 2</button>
+      <button class="nav-link btn btn-primary">Business</button>
+      <button class="nav-link btn btn-secondary"><i class="fa fa-plus-circle"></i>Add Account</button>
+    </div>
+
+    <button class="nav-link logout btn btn-danger"><i class="fa fa-sign-out"></i>Logout</button>
+  </div>
+
+  <div class="main" id="main">
+    <button id="openbtn" class="openbtn" onclick="openNav()">☰</button>  
+    <div class="main-page container-fluid" id="main-page">
+      <!--<img class="img-fluid rounded" src="images/sched.png" alt="sched">-->
+      <p class="account-name float-left">Account Name <i class="fa fa-edit"></i></p>
+      <div class="user-btn"><a href=""><i class="fa fa-user-circle"></i>User</a></div>
+      <div class="total-expenses">Total Expenses: 1231</div>
+      <div class="content">
+        <div id="left-content" class="left-content">
+            <div class="account-balance">Account Balance: 1234</div>
+            <button class="set-income">Set Income</button>
+            <button class="set-recurr">Set Recurring Expenses</button>
+            <button class="dash-btn">Dashboard</button>
         </div>
-        
-        <div class="main" id="main">
-          <button id="openbtn" class="openbtn" onclick="openNav()">☰</button>  
-          <div class="main-page container-fluid" id="main-page">
-            <!--<img class="img-fluid rounded" src="images/sched.png" alt="sched">-->
-            <p class="account-name float-left">Account Name <i class="fa fa-edit"></i></p>
-            <div class="user-btn"><a href=""><i class="fa fa-user-circle"></i>User</a></div>
-            <div class="total-expenses">Total Expenses: 1231</div>
-            <div class="content">
-                <div id="left-content" class="left-content">
-                    <div class="account-balance">Account Balance: 1234</div>
-                    <button class="set-income">Set Income</button>
-                    <button class="set-recurr">Set Recurring Expenses</button>
-                    <button class="dash-btn">Dashboard</button>
-                </div>
-                <div class="right-content">
-                    <h3>Expense List</h3>
-                    <table class="table">
-                        
-                        <tr>
-                            <th>Name</th>
-                            <th>Budget</th>
-                            <th>Date</th>
-                            <th>Quantity</th>
-                            <th>Type</th>
-                        </tr>
-                        <tr>
-                            <td>Rice</td>
-                            <td>123</td>
-                            <td>Dec 25, 2020</td>
-                            <td>1</td>
-                            <td>Recurring</td>
-                        </tr>
-                        <tr>
-                            <td>Water</td>
-                            <td>123</td>
-                            <td>Dec 26, 2020</td>
-                            <td>1</td>
-                            <td>Recurring</td>
-                        </tr>
-                    </table>
-                    <button class="add-expense">Add New Expense</button>
-                </div>
-            </div>
-          </div>
+        <div class="right-content">
+          <h3>Expense List</h3>
+          <table class="table">
+              <tr>
+                  <th>Name</th>
+                  <th>Budget</th>
+                  <th>Date</th>
+                  <th>Quantity</th>
+                  <th>Type</th>
+              </tr>
+              <tr>
+                  <td>Rice</td>
+                  <td>123</td>
+                  <td>Dec 25, 2020</td>
+                  <td>1</td>
+                  <td>Recurring</td>
+              </tr>
+              <tr>
+                  <td>Water</td>
+                  <td>123</td>
+                  <td>Dec 26, 2020</td>
+                  <td>1</td>
+                  <td>Recurring</td>
+              </tr>
+          </table>
+          <button class="add-expense">Add New Expense</button>
         </div>
+      </div>
+    </div>
+  </div>
 </body>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
