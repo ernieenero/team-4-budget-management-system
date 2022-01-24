@@ -17,10 +17,6 @@ class User_model extends CI_MODEL {
         
     }
 
-    public function loginUser($data){
-
-    }
-
     public function userChecker($username, $purpose){
         if($purpose == 'add'){
             $this->db->where('username', $username);

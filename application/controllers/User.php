@@ -13,12 +13,7 @@ class User extends CI_Controller {
         $this->load->view('templates/footer.php');
     }
     public function login(){
-        $data = $this->input->post();
-        if(isset($data['submit'])){
-            unset($data['submit']);
-
-
-        }
+        
         $this->load->view('templates/header.php');
         $this->load->view('app/login-page');
         $this->load->view('templates/footer.php');
