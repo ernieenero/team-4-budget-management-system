@@ -1,0 +1,75 @@
+:root {
+	--bg-color: #9bd5e8;
+	--primary-color: #4491b2;
+}
+.alert {
+	display: none;
+}
+body {
+	background-color: var(--bg-color);
+}
+span,
+a {
+	text-align: center;
+	display: block;
+	margin: auto;
+}
+.wrapper {
+	margin: 80px;
+}
+.form-signin {
+	max-width: 650px;
+	margin: 0 auto;
+	background-color: white;
+	padding: 50px;
+	border: 1px solid #e5e5e5;
+	border-radius: 10px;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+	margin-bottom: 30px;
+}
+.form-signin input[type="text"],
+.form-signin input[type="password"],
+.form-signin input[type="date"],
+.form-signin .gender {
+	display: inline;
+	margin: 0px 20px 20px 0px;
+	max-width: 250px;
+	padding: 10px;
+}
+.form-signin input[type="text"],
+.form-signin input[type="password"],
+.form-signin input[type="date"],
+.form-signin button {
+	border-radius: 15px;
+}
+.form-signin .form-signin button {
+	max-width: 300px;
+	margin: 20px auto;
+}
+.login-nav {
+	background-color: none;
+	width: 100%;
+	height: 30px;
+	margin: 10px 15px;
+	padding: 10px 10px;
+}
+.login-nav img {
+	position: absolute;
+	left: 35px;
+}
+.login-nav .cancel__button {
+	position: absolute;
+	right: 35px;
+	padding: 8px 30px;
+	text-decoration: none;
+	color: white;
+	background-color: #4491b2;
+	border-radius: 15px;
+}
+.login-nav .cancel__button:hover,
+#submit__button:hover {
+	box-shadow: 4px 3px gray;
+	transition: 0.5s ease-in-out;
+}

@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 <style>
     :root {
         --bg-color: #9BD5E8;
