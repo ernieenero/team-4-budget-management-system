@@ -2,7 +2,9 @@
 	margin: 0;
 	padding: 0;
 }
-div.home-page {
+body,
+html {
+	height: 100%;
 	background-image: linear-gradient(
 		to bottom,
 		white,
