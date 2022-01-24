@@ -1,58 +1,4 @@
-<<<<<<< Updated upstream
-<style>
-    :root {
-        --bg-color: #9BD5E8;
-        --primary-color: #4491B2;
-    }
-    .alert{
-        display: none;
-    }
-    body{
-        background-color: var(--bg-color);
-    }
-    span, a{
-        text-align: center;
-        display: block;
-        margin: auto;
-    }
-    .wrapper{
-        margin: 80px;
-    }
-    .form-signin{
-        max-width: 650px;
-        margin: 0 auto;
-        background-color: white;
-        padding: 50px;
-        border: 1px solid #e5e5e5;
-        border-radius: 10px;
-    }
-    .form-signin .form-signin-heading, .form-signin .checkbox{
-        margin-bottom: 30px;
-    }
-    .form-signin input[type="text"], 
-    .form-signin input[type="password"],
-    .form-signin input[type="date"],
-    .form-signin .gender{
-        display: inline;
-        margin: 0px 20px 20px 0px;
-        max-width: 250px;
-        padding: 10px;
-    }
-    .form-signin input[type="text"], 
-    .form-signin input[type="password"],
-    .form-signin input[type="date"],
-    .form-signin button{
-        border-radius: 15px;
-    }
-    .form-signin
-    .form-signin button{
-        max-width: 300px;
-        margin: 20px auto;
-    }
-</style>
-=======
-=======
->>>>>>> Stashed changes
+
         <link rel="stylesheet" href="<?php echo base_url(); ?>public/css/create-user.css">
     </head>
 <body>
@@ -60,10 +6,7 @@
         <img src="" alt="Logo">
         <a class="cancel__button" href="<?php echo base_url(); ?>">Cancel</a>
     </nav>
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+
     <div class="alert alert-success" role="alert">
         A simple success alert—check it out!
     </div>
