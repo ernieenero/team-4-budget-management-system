@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 <style>
     :root {
         --bg-color: #9BD5E8;
@@ -50,6 +51,8 @@
     }
 </style>
 =======
+=======
+>>>>>>> Stashed changes
         <link rel="stylesheet" href="<?php echo base_url(); ?>public/css/create-user.css">
     </head>
 <body>
@@ -57,6 +60,9 @@
         <img src="" alt="Logo">
         <a class="cancel__button" href="<?php echo base_url(); ?>">Cancel</a>
     </nav>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     <div class="alert alert-success" role="alert">
         A simple success alert—check it out!
