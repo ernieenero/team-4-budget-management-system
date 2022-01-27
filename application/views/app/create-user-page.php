@@ -31,8 +31,8 @@
             <input type="text" class="form-control" name="birthdate" placeholder="Birthdate" onfocus="(this.type='date')" onblur="if(this.value==''){this.type='text'}" required>
             <input type="text" class="form-control" name="country" placeholder="Country" required>
             <div class="gender">
-                <label>M</label> <input type="radio" name="gender" required>
-                <label>F</label> <input type="radio" name="gender" >
+                <label>M</label> <input type="radio" name="gender" value="M" required>
+                <label>F</label> <input type="radio" name="gender" value="F">
             </div>
             <input type="submit" class="btn btn-lg btn-primary btn-block" name="submit" value="Register">
             <br>

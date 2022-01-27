@@ -11,7 +11,7 @@ class User_model extends CI_MODEL {
         if($this->userChecker($data['username'], 'add')){
             $this->db->insert('users', $data);
 
-            return $this->db->last_query();
+            echo $this->db->last_query();
         }
         return 0;
         
