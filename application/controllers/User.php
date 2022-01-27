@@ -19,15 +19,22 @@ class User extends CI_Controller {
         $this->load->view('templates/footer.php');
     }
     public function signup(){
-        $data = $this->input->post();
-        if(isset($data['submit'])){
-            unset($data['submit']);
-            $this->load->model('user_model');
-            if($this->user_model->addUser($data)){
-                redirect('homepage');
+        
+        $this->form_validation->set_rules('username', 'Username', 'required|is_unique[users.username]', array(
+            'required'      => 'You have not provided %s.',
+            'is_unique'     => 'This %s already exists.'
+    ));
+        if($this->form_validation->run() == TRUE){
+            $data = $this->input->post();
+            if(isset($data['submit'])){
+                unset($data['submit']);
+                $this->load->model('user_model');
+                if($this->user_model->addUser($data)){
+                    redirect('homepage');
+                }
             }
+            
         }
-    
         $this->load->view('templates/header.php');
         $this->load->view('app/create-user-page');
         $this->load->view('templates/footer.php');
