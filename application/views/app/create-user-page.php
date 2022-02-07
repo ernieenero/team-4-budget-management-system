@@ -20,10 +20,11 @@
     </div>
 
     <div class="wrapper">
+    <span style="color: red;" class="error"><?php echo form_error('username')?></span>
             
         <form method="post" action="<?php echo base_url(); ?>signup" class="form-signin">
             <h2 class="form-signin-heading text-center">Welcome New User</h2>
-            <input type="text" class="form-control" name="username" placeholder="Username" required autofocus>
+            <input type="text" class="form-control" name="username" placeholder="Username" autofocus>
             <input type="text" class="form-control" name="first_name" placeholder="First Name" required>
             <input type="password" class="form-control" name="password" placeholder="Password" required>
             <input type="text" class="form-control" name="last_name" placeholder="Last Name" required>
